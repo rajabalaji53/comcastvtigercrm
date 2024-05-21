@@ -18,4 +18,11 @@ public class ProductsPage {
 		return productLookUpImage;
 	}
 
+	@FindBy(name="search")
+	private WebElement searchbtnele3;
+
+	public WebElement getSearchbtnele3() {
+		return searchbtnele3;
+	}
+
 }
